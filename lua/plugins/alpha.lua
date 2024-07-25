@@ -54,7 +54,7 @@ return {
             },
             {
                 type = "text",
-                val = "研磨小爪",
+                val = "孤爪研磨",
                 opts = { hl = "NeovimDashboardUsername", shrink_margin = false, position = "center" },
             },
         }
@@ -63,7 +63,7 @@ return {
             dashboard.button("n", " " .. " New file", "<cmd> ene <BAR> startinsert <cr>"),
             dashboard.button("f", " " .. " Find file", "<cmd> Telescope find_files <cr>"),
             dashboard.button("r", " " .. " Recent files", "<cmd> Telescope oldfiles <cr>"),
-            dashboard.button("g", " " .. " Find text", "<cmd> Telescope live_grep <cr>"),
+            dashboard.button("s", " " .. " Find text", "<cmd> Telescope live_grep <cr>"),
             dashboard.button("q", " " .. " Quit", "<cmd> qa <cr>"),
         }
 
